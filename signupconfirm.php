@@ -117,7 +117,7 @@ if(isset($_REQUEST["in_sub"]))
     </head>
     
     
-    <body style="background-image:url('./images/inbg.jpg');">
+    <body style="background-image:url('./images/background_global.jpg');">
         <form id="signupconfirm" action="signupconfirm.php" method="post">
   
             <div id="dvlogin" style="box-shadow: 0px 5px 10px #999999">
@@ -129,7 +129,7 @@ if(isset($_REQUEST["in_sub"]))
             <div class="container-fluid">    
                 <div class="row">
                   <div class="col-sm-12">
-                        <img src="images/cutm.jpg" width="100%" style="box-shadow: 1px 5px 14px #999999; "></img>
+                        <img src="images/banner.png" width="100%" style="box-shadow: 1px 5px 14px #999999; "></img>
                   </div>
                  </div>    
              </div>
@@ -152,7 +152,11 @@ if(isset($_REQUEST["in_sub"]))
                  <br><br>
             
                  <input type="submit" id="u_sub" name="u_sub" value="Login" class="toggle btn btn-primary" style="width:100px; margin-left: 200px;"><br><br>
-             </div>
+                 <p>Make sure to Save your username and password</p>
+                 <p>Account Number: 0214526655<p>
+                  <p>Account Name: RAWAFID INTERNATIONAL<p>
+                  <p>BAnk Name: Zenith<p>
+                 </div>
         </div>
         
         </form>
