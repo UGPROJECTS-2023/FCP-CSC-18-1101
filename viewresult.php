@@ -26,7 +26,7 @@ $id=$_SESSION['user'];
             <div class="container-fluid">    
                 <div class="row">
                   <div class="col-sm-12">
-                        <img src="images/cutm.jpg" width="100%" style="box-shadow: 1px 5px 14px #999999; "></img>
+                        <img src="images/banner.png" width="100%" style="box-shadow: 1px 5px 14px #999999; "></img>
                   </div>
                  </div>    
              </div><br>
@@ -37,7 +37,7 @@ $id=$_SESSION['user'];
                                 <div class="col-sm-12">  
                                      
                                     <p>Your Marks Obtained are <?php echo $stmrk ?></p>      
-                                        
+                                        <a href="homepageuser.php" style="margin-left: 180px;">Back </a>
                                </div>
                          </div>
                      </div>
