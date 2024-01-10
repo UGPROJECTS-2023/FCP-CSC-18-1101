@@ -44,9 +44,9 @@ $result = mysqli_query($con,"SELECT * FROM t_user WHERE s_id='".$_SESSION['user'
       <center>  <table class="table table-bordered" style="font-family: Verdana">
                 
                 <tr>
-                 <td style="width:3%;"><img src="./images/Logo-T.gif" width="50%"> </td>
+                 <td style="width:3%;"><img src="./images/log.png" width="50%"> </td>
                  <td style="width:8%;"><center><font style="font-family:Arial Black; font-size:20px;">
-                    CENTURION UNIVERSITY OF TECHNOLOGY AND MANAGEMENT, BHUBANESWAR - 752050, ODISHA</font></center>
+                    RAWAFID INTERNATIONAL COLLEGE OF HEALTH SCIENCE</font></center>
                 
                 <center><font style="font-family:Verdana; font-size:18px;">
                     Phone : (0674)2492496, Fax : (0674)2490480
@@ -55,7 +55,7 @@ $result = mysqli_query($con,"SELECT * FROM t_user WHERE s_id='".$_SESSION['user'
                 <br>
                 <br>
                 <center><font style="font-family:Arial Black; font-size:20px;">
-                   CUEE ADMIT CARD (2016-17)</font></center>
+                  ADMIT CARD (2023-2024)</font></center>
                 </td>
                     <td colspan="2" width="3%" >
                    <?php
@@ -81,7 +81,7 @@ $result = mysqli_query($con,"SELECT * FROM t_user WHERE s_id='".$_SESSION['user'
                  <tr>
                  <td style="width:4%;"> <font style="font-family: Verdana;">Date</font> </td>
                     <td style="width:8%;" colspan="3"><font style="font-family: Verdana; font-weight: bold">
-                        10th May 2016, Afternoon Session</font> </td>
+                        10th May 2024, Afternoon Session</font> </td>
                  </tr>
                  
                  <tr>
@@ -105,11 +105,9 @@ $result = mysqli_query($con,"SELECT * FROM t_user WHERE s_id='".$_SESSION['user'
                  <tr>
                      <td style="width:4%;"> <font style="font-family: Verdana;">Exam Center  </font> </td>
                     <td style="width:8%;" colspan="3">
-                       <font style="font-family: Verdana; font-weight: bold"> Centurion Institute of Technology<br>
-                        At - Ramchandrapur<br>
-                        P.O - Jatni, Bhubaneswar<br>
-                        Dist: Khurda - 752050<br>
-                        Odisha, India<br>
+                       <font style="font-family: Verdana; font-weight: bold"> Rawafid Internation<br>
+                        
+                        Yalwawa, Dutse<br>
                         Phone: (0674)2492496<br>
                         </font>
                     </td>
@@ -128,7 +126,7 @@ $result = mysqli_query($con,"SELECT * FROM t_user WHERE s_id='".$_SESSION['user'
             <p style="margin-left: 100px; margin-right: 100px; font-family: Verdana;">
                 1. This Admit Card must be presented for verification at the time of examination, along with at least one
                    original(not photocopied or scanned copy) and valid (not expired) photo identification card
-                   (e.g : Aadhaar Card, Voter ID).
+                   (e.g : NIN, Voter ID) and Proof of Payment.
             </p>
             
             <p style="margin-left: 100px; margin-right: 100px; font-family: Verdana;">
@@ -149,10 +147,13 @@ $result = mysqli_query($con,"SELECT * FROM t_user WHERE s_id='".$_SESSION['user'
                 5. Mobile phones or any other Electronic gadgets are NOT ALLOWED inside the examination hall. There may not be any
                 facility for the safe-keeping of your gadget outside the hall, so it may be easier to leave it at your residence.
             </p>
-            
+            <p style="margin-left: 100px; margin-right: 100px; font-family: Verdana;">
+                6. Kindly note that you have to score 80% to pass.
+            </p>
           </font>
           
           <center><input type="button" id="print" class="toggle btn btn-primary" value="Print" onclick="printpage();"></center>
+          <a href="homepageuser.php" style="margin-left: 180px;">Back </a>
       </form>
     </body>
 </html>
