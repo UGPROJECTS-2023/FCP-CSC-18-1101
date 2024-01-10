@@ -154,11 +154,7 @@ $result = mysqli_query($con,"SELECT * FROM t_user WHERE s_id='$getid'");
                 </td>
                 </tr>   
                
-                <tr>
-                    <td> <font style="font-family: Verdana;">From</font>
-                    <td colspan="3">  <?php echo  $row[20] ?>
-                </td>
-                </tr>  
+                 
                                 
                 <tr>
                     <td><font style="font-family: Verdana;"> Nationality</font>
@@ -174,55 +170,9 @@ $result = mysqli_query($con,"SELECT * FROM t_user WHERE s_id='$getid'");
                 </tr> 
                   
                  
-                 <tr>
-                    <td><font style="font-family: Verdana;">Exam Appeared</font></td>
-                    <td><?php echo $row[24] ?>
-                            
-                    </td>
-                    <td><font style="font-family: Verdana;">Rank</font></td>
-                    <td><?php echo $row[25] ?></td>
-               </tr>  
                
-               <tr>
-                    <td><font style="font-family: Verdana;">Roll No.</font></td>
-                    <td><?php echo $row[26] ?></td>
-                    <td><font style="font-family: Verdana;">Alloted Branch</font></td>
-                    <td><?php echo $row[27] ?></td>
-               </tr>  
+                
                
-               
-               <tr>
-                    <td><font style="font-family: Verdana;">Choice of Branch</font></td>
-                    <td colspan="3"><?php echo $row[28] ?>
-                     </td>
-               </tr>
-               <tr>
-                     <td><font style="font-family: Verdana;">College Name</font></td>
-                     <td colspan="3"><?php echo $row[29] ?>
-                     </td>
-                     
-                </tr>
-              
-                <tr>
-                     <td><font style="font-family: Verdana;">Center for exam</font></td>
-                     <td colspan="3"><?php echo $row[30] ?>
-                     </td>
-                     
-                </tr>
-                
-                <tr>
-                     <td><font style="font-family: Verdana;">Course Type</font></td>
-                     <td colspan="3"><?php echo $row[31] ?>
-                     </td>
-                     
-                </tr>
-                
-                
-                <tr>
-                     <td><font style="font-family: Verdana;">% in PCM</font></td>
-                     <td colspan="3"><?php echo $row[32] ?></td>
-                     
-                </tr>
                 
                 
                <tr>
@@ -264,30 +214,20 @@ $result = mysqli_query($con,"SELECT * FROM t_user WHERE s_id='$getid'");
                             </tbody>
                        </table>
                        
-                           <tr>
-                               <td><font style="font-family: Verdana;">Medium of Instruction till class 10th</font></td>
-                               
-                                    <td colspan="3"><?php echo $row[45] ?></td>
-                               
-                           </tr>
                            
-                           
-                           <tr>
-                               <td><font style="font-family: Verdana;">Mode of Payment</font></td>
-                               
-                               <td colspan="3"><?php echo $row[46] ?></td>
-                               
-                           </tr>
                  
                        </table></center>
                                </div>
                             </div>
             </div>
+            
         <?php
               }
         ?>
              <center> <?php echo "<a href='viewdoc.php?id=".$getid."'>View Documents </a>" ?> <br> <br>
              <input type="submit" class="toggle btn btn-primary" value="Print">
+             <br>
+             <a href="admin.php">Back </a></br>
              </center>           
              
                   </form>
